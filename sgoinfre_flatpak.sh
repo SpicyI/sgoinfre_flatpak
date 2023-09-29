@@ -7,8 +7,7 @@ SGOINFRE_PATH="/nfs/sgoinfre/goinfre/Perso/$USER"
 DUMMY_FILENAME="/nfs/homes/$USER/.local/share/noflatpak"
 
 check_staus() {
-    echo "---> $2 , $?"
-	echo -n $1
+    echo -n $1
     if [ $2 ]
     then
         echo " -success-"
